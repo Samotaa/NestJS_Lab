@@ -1,4 +1,5 @@
 {
+  "host": "nestjs.endpoints.nestjs-341309.cloud.goog",
   "paths": {
     "/users/{id}": {
       "get": {
@@ -6,7 +7,7 @@
         "summary": "Retrieve a single User",
         "parameters": [
           {
-            "name": "id",
+            "name": "id",S
             "required": true,
             "in": "path",
             "type": "number"
