@@ -7,7 +7,7 @@
         "summary": "Retrieve a single User",
         "parameters": [
           {
-            "name": "id",S
+            "name": "id",
             "required": true,
             "in": "path",
             "type": "number"
