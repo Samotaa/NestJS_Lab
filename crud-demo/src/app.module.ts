@@ -9,10 +9,10 @@ import { TrainersModule } from './trainers/trainers.module';
   imports: [ 
     TypeOrmModule.forRoot({
     type: 'postgres',
-    host: 'localhost',
+    host: '10.51.32.4',
     database: 'postgres',
     username: 'postgres',
-    password: 'admin',
+    password: '12qwaszx',
     port: 5432,
     entities: ['dist/**/*.entity{.ts,.js}'],
     synchronize: true,

@@ -21,6 +21,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "14": "^3.1.6",
     "@nestjs/common": "^8.0.0",
     "@nestjs/core": "^8.0.0",
     "@nestjs/platform-express": "^8.0.0",
@@ -32,6 +33,7 @@
     "class-validator": "^0.13.2",
     "mysql": "^2.18.1",
     "mysql3": "^0.6.0",
+    "nestjs-google-pubsub": "^0.1.2",
     "pg": "^8.7.3",
     "postgres": "^1.0.2",
     "reflect-metadata": "^0.1.13",
@@ -39,7 +41,8 @@
     "rxjs": "^7.2.0",
     "sqlite3": "^5.0.2",
     "swagger-ui-express": "^4.3.0",
-    "typeorm": "^0.2.43"
+    "typeorm": "^0.2.45",
+    "uuidv4": "^6.2.12"
   },
   "devDependencies": {
     "@nestjs/cli": "^8.0.0",
